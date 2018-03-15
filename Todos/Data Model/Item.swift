@@ -8,9 +8,8 @@
 
 import Foundation
 
-class Item {
+class Item: Encodable {
     var title: String = "New Item"
     var done: Bool = false
-    
     
 }
